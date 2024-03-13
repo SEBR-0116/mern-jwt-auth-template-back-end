@@ -32,10 +32,7 @@ Replace the `DATABASE_URL`, `SECRET`, and `CLOUDINARY_URL` with values that you 
 
 > 🚨 Place secrets in this `.env` file. The contents of this file WILL NOT be exposed to site visitors.
 
-Launch the app with:
+- Launch the app with nodemon
 
-```bash
-nodemon
-```
 
-You're done!
+- Check the user's models to see what types of data you will need, then create a new user using Thunderclient to create your user and Token!
