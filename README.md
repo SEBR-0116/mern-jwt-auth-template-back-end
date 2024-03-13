@@ -3,7 +3,7 @@
 This is the back end of a decoupled MERN Stack app that includes JWT Authentication.
 
 
-This project uses ES Syntax for the back end (Import instead of Require). You can re-configure these to match whichever syntax your app uses. If you want to use ES Syntax for yours, check the package.json file in this, note and copy the "Module:true" value found in it
+This project uses ES Syntax for the back end (Import instead of Require). You can re-configure these to match whichever syntax your app uses. If you want to use ES Syntax for yours, check the package.json file in this, note and copy the "type": "module", value found in it
 
 ## To Use This Template
 
