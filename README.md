@@ -2,12 +2,11 @@
 
 This is the back end of a decoupled MERN Stack app that includes JWT Authentication.
 
-Use this to go build things! 🚀
+
+This project uses ES Syntax for the back end (Import instead of Require). You can re-configure these to match whichever syntax your app uses. If you want to use ES Syntax for yours, check the package.json file in this, note and copy the "Module:true" value found in it
 
 ## To Use This Template
 
-- Create an Account on Cloudinary to register your user auth
-- 
 - Attach your db or Atlas to your db/index.js file
 
 - Run `npm i` to fetch the template's dependencies:
@@ -27,7 +26,6 @@ Fill it with the following:
 ```
 DATABASE_URL=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 SECRET=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-CLOUDINARY_URL=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
 Replace the `DATABASE_URL`, `SECRET`, and `CLOUDINARY_URL` with values that you provide.
