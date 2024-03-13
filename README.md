@@ -9,10 +9,15 @@ This project uses ES Syntax for the back end (Import instead of Require). You ca
 
 - Attach your db or Atlas to your db/index.js file
 
-- Run `npm i` to fetch the template's dependencies:
+- Run `npm i` to fetch the template's dependencies, and then install nodemon to your dev route:
 
 ```bash
 npm i
+```
+
+```bash
+
+npm i nodemon --save-dev
 ```
 
 - touch a `.env` file:
